@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+section.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+a{
+	color: #fff;
+}
+#home{
+	background-color: #3B5D50;
+}
+header{
+	height: 70px;
+	padding: 10px 0;
+}
+header section.wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header div.left{
+	width: 48%;
+}
+header div.left h1{}
+header div.left h1 a{	
+	font-size: 50px;
+}
+header div.right{
+	width: 48%;
+}
+header div.right ul{
+	display: flex;
+	justify-content: end;
+}
+header div.right ul li{
+    margin-right: 50px;
+}
+header div.right ul li:last-child a{
+	border: 1px solid #ffffff;
+	padding: 8px 10px;
+}
+header div.right ul li a{
+	font-size: 20px;
+}
+
+#home section.spotlight{
+	padding-top: 250px;
+	height: 800px;
+}
+
+
+#home section.spotlight section.wrapper{
+	color: #fff;
+} 
+
+#home section.spotlight section.wrapper h1{
+	font-size: 80px;
+	margin-bottom: 25px;
+	text-align: center;
+} 
+
+#home section.spotlight section.wrapper p{
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+} 
+
+#about{
+	padding: 70px 0;
+}
+
+#about .wrapper{}
+
+
+
+#about .wrapper div.left ul{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+#about .wrapper div.left ul li{
+	border: 2px solid#929292;
+	border-radius: 10px;
+	padding: 10px;
+	width: 32%;
+}
+
+#about .wrapper div.left ul li img{
+	width: 100%;
+}
+#about .wrapper div.left ul li div.one{
+	padding: 30px;
+}
+#about .wrapper div.left ul li div.one h1{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#about .wrapper div.left ul li div.one p{
+	line-height: 30px;
+}
+
+#card{
+	padding: 100px 0;
+}
+
+#card .wrapper{}
+
+#card .wrapper section.container{
+	display: flex;
+	justify-content: space-between;
+}
+
+#card .wrapper section.container div.left{
+	width: 48%;
+}
+
+#card .wrapper section.container div.left img{
+	width: 100%;
+}
+
+#card .wrapper section.container div.right{
+	width: 48%;
+}
+
+#card .wrapper section.container div.right h2{
+	font-size: 30px;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+
+#card .wrapper section.container div.right p{
+	font-size: 16px;
+	width: 100%;
+	line-height: 30px;
+}
+#project{
+	padding: 90px 0;
+	background-color: #3B5D50;
+	margin-top: 50px;
+}
+#project .wrapper{}
+
+#project .wrapper section.container{
+	display: flex;
+	align-items: center;
+}
+
+#project .wrapper section.container  div.left{
+	width: 48%;
+	color: #fff;
+}
+
+#project .wrapper section.container div.left h2{
+	font-size: 30px;
+	padding: 20px;
+}
+
+#project .wrapper section.container div.left p{
+	font-size: 16px;
+	width: 90%;
+	line-height: 30px;
+	padding: 20px;
+}
+
+#project .wrapper section.container div.right{
+	width: 48%;
+}
+
+#project .wrapper section.container div.right img{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#card{
+	padding: 90px 0;
+}
+
+#card .wrapper{}
+
+#card .wrapper section.container{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+#card .wrapper section.container div.left{
+	width: 48%;
+}
+
+#card .wrapper section.container div.left img{
+	width: 100%;
+}
+
+#card .wrapper section.container div.right{
+	width: 48%;
+	
+}
+
+#card .wrapper section.container div.right h2{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+#card .wrapper section.container div.right p{
+	font-size: 16px;
+	width: 90%;
+	line-height: 30px;
+}
+
+footer{
+	padding: 50px 0;
+	background-color: #3B5D50;
+	margin-top: 50px;
+}
+
+footer section.wrapper{}
+
+footer section.wrapper section.items{
+	display: flex;
+	color: #fff;
+	margin-left: 40px;
+}
+
+footer section.wrapper div.item{
+}
+
+footer section.wrapper div.item ul{
+	margin-right: 100px;
+}
+
+footer section.wrapper div.item ul h2{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer section.wrapper div.item ul li{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+footer section.wrapper div.item.large{}
+
+footer section.wrapper div.item.large h1{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer section.wrapper div.item.large p{
+	font-size: 16px;
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+
